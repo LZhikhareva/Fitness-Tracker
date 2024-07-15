@@ -18,7 +18,7 @@ const yearItem = document.querySelector('.duration-year');
 const registerBtns = document.querySelectorAll('.plan-item-button');
 
 const selectList = [];
-const select = document.querySelector('.select'); // Assuming 'select' is a single element
+const select = document.querySelector('.select');
 const selectOptions = Array.from(document.querySelectorAll('.tariff'));
 
 
@@ -81,8 +81,8 @@ form.addEventListener('submit', (e) => {
 })
 
 
-
 // change of tariff plans
+
 monthlyItem.addEventListener('click', () => {
   document.querySelector('.year-plan-items').style.display = 'none';
   document.querySelector('.monthly-plan-items').style.display = 'flex';
@@ -104,13 +104,10 @@ selectOptions.forEach(option => {
 
 registerBtns.forEach(button => {
   button.addEventListener('click', () => {
-    // Show the popup
     document.querySelector('.tariff-parent_popup').style.display = 'block';
     document.querySelector('.tariff-popup').style.display = 'block';
     document.querySelector('.tariff-success-registration').style.display = 'none';
-    // Get the tariff text from the clicked plan item
     const tariffText = button.closest('.plan-item').querySelector('.tariff').textContent;
-    // Select the option corresponding to the clicked button
     select.value = tariffText;
   });
 });
@@ -126,17 +123,17 @@ formRegister.addEventListener('submit', (e) => {
   if (document.getElementById('name').value === '') {
     document.getElementById('name').style.border = '1px solid red';
   } else {
-    document.getElementById('name').style.border = '1px solid black'; // Reset border color
+    document.getElementById('name').style.border = '1px solid black';
   }
   if (document.getElementById('surname').value === '') {
     document.getElementById('surname').style.border = '1px solid red';
   } else {
-    document.getElementById('surname').style.border = '1px solid black'; // Reset border color
+    document.getElementById('surname').style.border = '1px solid black';
   }
   if (!isEmailValid(inputRegister.value)) {
     inputRegister.style.border = '1px solid red';
   } else {
-    inputRegister.style.border = '1px solid black'; // Reset border color
+    inputRegister.style.border = '1px solid black';
   }
   if (document.getElementById('name').value !== '' &&
     document.getElementById('surname').value !== '' &&
@@ -169,9 +166,9 @@ function smoothScroll(from, to) {
   from.addEventListener('click', () => {
     if (to.offsetParent !== null) {
       let start = window.pageYOffset;
-      let target = to.offsetTop; // Get the top position of the target element
+      let target = to.offsetTop;
       let distance = target - start + 10;
-      let duration = 500; // Set duration of the scroll animation in milliseconds
+      let duration = 500;
       let startTime = null;
       function animation(currentTime) {
         if (startTime === null) startTime = currentTime;
