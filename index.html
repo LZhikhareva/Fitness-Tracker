@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css" />
+
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header class="header-container">
+        <div class="menu-container">
+            <div class="logo">
+                <img class="logo-img" src="img/logo.svg" alt="Логотип">
+            </div>
+            <div class="menu-list">
+                <nav class="menu-items-list">
+                    <li class="menu-item"><a href="#">
+                            <img src="img/Facebook.svg" alt="Логотип Facebook">
+                        </a></li>
+                    <li class="menu-item"><a href="#">
+                            <img src="img/Linkedin.svg" alt="Логотип LinkedIn">
+                        </a></li>
+                    <li class="menu-item"><a href="#">
+                            <img src="img/google.svg" alt="Логотип Google">
+                        </a></li>
+                </nav>
+                <div class="menu-burger">
+                    <img src="img/Menu.svg">
+                </div>
+            </div>
+        </div>
+        <div class="intro-container">
+            <div class="intro-text">
+                <h1 class="intro-header">The best
+                    fitness tracker!</h1>
+                <div class="intro-text-descriprion">Nisi ullamco tempor tempor nulla labore ad labore sit eu duis. Ut et
+                    esse cupidatat consequat ea exercitation.</div>
+                <div class="intro-buttons">
+                    <button class="intro-btn btn"><span>
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M19.873 0H5.12695C2.29995 0 0 2.29995 0 5.12695V19.873C0 22.7 2.29995 25 5.12695 25H19.873C22.7 25 25 22.7 25 19.873V5.12695C25 2.29995 22.7 0 19.873 0ZM7.9252 19.5043C7.69913 19.9255 7.28753 20.1612 6.86487 20.1613C6.65767 20.1613 6.44789 20.1047 6.25594 19.9855C5.67243 19.623 5.47178 18.8175 5.80865 18.1897L6.04899 17.7419H8.871L7.9252 19.5043ZM5.21867 16.9355C4.56476 16.9355 4.03276 16.3989 4.03276 15.7394C4.03276 15.0799 4.56476 14.5434 5.21867 14.5434H7.5515L10.7513 8.95385L9.88409 7.43898C9.55716 6.86785 9.75184 6.13491 10.3181 5.80514H10.3182C10.8845 5.47541 11.6112 5.67185 11.9381 6.24294L12.1207 6.56181L12.3032 6.24299C12.6303 5.6718 13.357 5.47546 13.9232 5.80519C14.1975 5.96493 14.3937 6.22285 14.4757 6.53143C14.5577 6.84001 14.5156 7.16236 14.3572 7.43903L10.2902 14.5434H12.8556L14.225 16.9355H5.21867ZM19.699 16.9094H18.6685L19.5037 18.3138C19.8535 18.9017 19.6452 19.6563 19.0396 19.9958C18.8441 20.1053 18.6271 20.1613 18.4074 20.1613C18.2972 20.1613 18.1864 20.1473 18.077 20.1188C17.7497 20.0336 17.4762 19.8299 17.3068 19.545L12.9028 12.14L14.3674 9.67742L17.2039 14.4468H19.699C20.3984 14.4468 20.9673 14.9991 20.9673 15.6781C20.9673 16.357 20.3984 16.9094 19.699 16.9094Z"
+                                    fill="#1C1C1D" />
+                            </svg>
+                        </span>Download</button>
+                    <button class="intro-btn btn">
+                        <span>
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M1.76418 0.833374C1.70627 1.04956 1.66666 1.28275 1.66666 1.54913V23.4599C1.66666 23.7222 1.70627 23.953 1.76189 24.1667L13.3333 12.5162L1.76418 0.833374Z"
+                                    fill="#1C1C1D" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M18.3333 8.26903L4.09826 0.362865C3.53072 0.0182122 2.97201 -0.0691532 2.5 0.0510745L14.7435 11.6667L18.3333 8.26903Z"
+                                    fill="#1C1C1D" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M23.1304 11.0569L19.5257 9.16663L15.8333 12.4633L19.5942 15.8333L23.1014 14.0177C24.8136 13.098 24.189 11.6176 23.1304 11.0569Z"
+                                    fill="#1C1C1D" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M2.5 24.9389C2.97687 25.0729 3.5464 24.9926 4.12551 24.6389L18.3333 16.804L14.6965 13.3334L2.5 24.9389Z"
+                                    fill="#1C1C1D" />
+                            </svg>
+                        </span>Download</button>
+                </div>
+            </div>
+            <div class="intro-img-container">
+                <img class="intro-img" src="img/Illustration.png">
+            </div>
+        </div>
+    </header>
+    <section class="about-container" id="about">
+        <h2 class="section-header">About text</h2>
+        <div class="about-text">Nisi ullamco tempor tempor nulla labore ad labore sit eu duis. Ut et esse cupidatat
+            consequat.</div>
+        <div class="slider" data-direction="right" data-speed="slow">
+            <div class="slider-list">
+                <div class="slider-item">
+                    <div class="slider-img">
+                        <img src="img/slider-img.png" alt="Изображение в слайдере">
+                    </div>
+                    <h3 class="slider-header">Слайд 1</h3>
+                    <div class="slider-text">Nisi ullamco tempor tempor nulla labore ad labore sit eu duis. </div>
+                </div>
+                <div class="slider-item">
+                    <div class="slider-img">
+                        <img src="img/slider-img.png" alt="Изображение в слайдере">
+                    </div>
+                    <h3 class="slider-header">Слайд 2</h3>
+                    <div class="slider-text">Nisi ullamco tempor tempor nulla labore ad labore sit eu duis. </div>
+                </div>
+                <div class="slider-item">
+                    <div class="slider-img">
+                        <img src="img/slider-img.png" alt="Изображение в слайдере">
+                    </div>
+                    <h3 class="slider-header">Слайд 3</h3>
+                    <div class="slider-text">Nisi ullamco tempor tempor nulla labore ad labore sit eu duis. </div>
+                </div>
+                <div class="slider-item">
+                    <div class="slider-img">
+                        <img src="img/slider-img.png" alt="Изображение в слайдере">
+                    </div>
+                    <h3 class="slider-header">Слайд 4</h3>
+                    <div class="slider-text">Nisi ullamco tempor tempor nulla labore ad labore sit eu duis. </div>
+                </div>
+                <div class="slider-item">
+                    <div class="slider-img">
+                        <img src="img/slider-img.png" alt="Изображение в слайдере">
+                    </div>
+                    <h3 class="slider-header">Слайд 5</h3>
+                    <div class="slider-text">Nisi ullamco tempor tempor nulla labore ad labore sit eu duis. </div>
+                </div>
+                <div class="slider-item">
+                    <div class="slider-img">
+                        <img src="img/slider-img.png" alt="Изображение в слайдере">
+                    </div>
+                    <h3 class="slider-header">Слайд 6</h3>
+                    <div class="slider-text">Nisi ullamco tempor tempor nulla labore ad labore sit eu duis. </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider slider-mob" data-direction="right" data-speed="slow">
+            <div class="slider-list-mob">
+                <div class="slider-item">
+                    <div class="slider-img">
+                        <img src="img/slider-img.png" alt="Изображение в слайдере">
+                    </div>
+                    <h3 class="slider-header">Слайд 1</h3>
+                    <div class="slider-text">Nisi ullamco tempor tempor nulla labore ad labore sit eu duis. </div>
+                </div>
+                <div class="slider-item">
+                    <div class="slider-img">
+                        <img src="img/slider-img.png" alt="Изображение в слайдере">
+                    </div>
+                    <h3 class="slider-header">Слайд 2</h3>
+                    <div class="slider-text">Nisi ullamco tempor tempor nulla labore ad labore sit eu duis. </div>
+                </div>
+                <div class="slider-item">
+                    <div class="slider-img">
+                        <img src="img/slider-img.png" alt="Изображение в слайдере">
+                    </div>
+                    <h3 class="slider-header">Слайд 3</h3>
+                    <div class="slider-text">Nisi ullamco tempor tempor nulla labore ad labore sit eu duis. </div>
+                </div>
+                <div class="slider-item">
+                    <div class="slider-img">
+                        <img src="img/slider-img.png" alt="Изображение в слайдере">
+                    </div>
+                    <h3 class="slider-header">Слайд 4</h3>
+                    <div class="slider-text">Nisi ullamco tempor tempor nulla labore ad labore sit eu duis. </div>
+                </div>
+                <div class="slider-item">
+                    <div class="slider-img">
+                        <img src="img/slider-img.png" alt="Изображение в слайдере">
+                    </div>
+                    <h3 class="slider-header">Слайд 5</h3>
+                    <div class="slider-text">Nisi ullamco tempor tempor nulla labore ad labore sit eu duis. </div>
+                </div>
+                <div class="slider-item">
+                    <div class="slider-img">
+                        <img src="img/slider-img.png" alt="Изображение в слайдере">
+                    </div>
+                    <h3 class="slider-header">Слайд 6</h3>
+                    <div class="slider-text">Nisi ullamco tempor tempor nulla labore ad labore sit eu duis. </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="start-container-full" id="signup">
+        <div class="start-container">
+            <div class="start-text">
+                <h2 class="section-header">Start training already on your watch</h2>
+                <div class="start-text-description">Nisi ullamco tempor tempor nulla labore ad labore sit eu duis. Ut et
+                    esse
+                    cupidatat consequat.
+                    Nisi ullamco tempor tempor nulla labore ad labore sit eu duis. Ut et esse cupidatat consequat.</div>
+                <form class="start-form" action="#" method="get">
+                    <input class="start-input" type="text" name="inputText" placeholder="Email" required
+                        oninvalid="setCustomValidity('Empty!')" oninput="setCustomValidity('')">
+                    <button class="start-button" type="submit">Let's GO!</button>
+                </form>
+                <div class="parent_popup">
+                    <div class="popup">
+                        <p>Thanks for joining our team!</p>
+                        <button type="submit" class="popup-close">Start Training!</button>
+                        <button type="button" class="close" aria-label="Закрыть">
+                            <span aria-hidden="true">×</span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="start-img-container">
+                <img class="start-img" src="img/clock.png">
+            </div>
+        </div>
+    </section>
+    <section class="stories-container">
+        <h2 class="section-header">Stories of our users</h2>
+        <div class="stories-items">
+            <div class="stories-item">
+                <div class="stories-img"><img src="img/slider-img.png" alt="Изображение в слайдере"></div>
+                <div class="stories-item_header">Stories of our users</div>
+                <div class="stories-item_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                <div class="stories-item_date">17.10.20</div>
+            </div>
+            <div class="stories-item">
+                <div class="stories-img"><img src="img/slider-img.png" alt="Изображение в слайдере"></div>
+                <div class="stories-item_header">Stories of our users</div>
+                <div class="stories-item_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                <div class="stories-item_date">17.10.20</div>
+            </div>
+            <div class="stories-item">
+                <div class="stories-img"><img src="img/slider-img.png" alt="Изображение в слайдере"></div>
+                <div class="stories-item_header">Stories of our users</div>
+                <div class="stories-item_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                <div class="stories-item_date">17.10.20</div>
+            </div>
+        </div>
+    </section>
+    <section class="tariffs-container" id="pricing">
+        <p>We have selected the best payment solutions for you.</p>
+        <h2 class="section-header">Choose your tariff plan</h2>
+        <div class="duration">
+            <div class="duration-item duration-month">Month</div>
+            <div class="duration-item duration-year">Years</div>
+        </div>
+        <div class="monthly-plan-items">
+            <div class="plan-item">
+                <p class="tariff">Free</p>
+                <div class="cost">$0 per month</div>
+                <p>5 Email</p>
+                <p>Free share</p>
+                <p>200 Clients</p>
+                <p>Chat support</p>
+                <button class="plan-item-button">Get started</button>
+            </div>
+            <div class="plan-item">
+                <p class="tariff">Basic</p>
+                <div class="cost">$5 per month</div>
+                <p>200 Email</p>
+                <p>Free share</p>
+                <p>500 Clients</p>
+                <p>Chat + Email support</p>
+                <button class="plan-item-button">Get started</button>
+            </div>
+            <div class="plan-item">
+                <p class="tariff">Advanced</p>
+                <div class="cost">$9 per month</div>
+                <p>2000 Email</p>
+                <p>Free share</p>
+                <p>1000 Clients</p>
+                <p>Chat + Email support</p>
+                <button class="plan-item-button">Get started</button>
+            </div>
+            <div class="plan-item">
+                <p class="tariff">Most Advanced</p>
+                <div class="cost">$12 per month</div>
+                <p>Unlimited Email</p>
+                <p>Free share</p>
+                <p>10000 Clients</p>
+                <p>Personal manager</p>
+                <button class="plan-item-button">Get started</button>
+            </div>
+        </div>
+        <div class="year-plan-items">
+            <div class="plan-item">
+                <p class="tariff">1 year Basic</p>
+                <div class="cost">$50</div>
+                <p>2400 Email</p>
+                <p>Free share</p>
+                <p>500 Clients</p>
+                <p>Chat + Email support</p>
+                <button class="plan-item-button">Get started</button>
+            </div>
+            <div class="plan-item">
+                <p class="tariff">1 Year Advanced</p>
+                <div class="cost">$100</div>
+                <p>24000 Email</p>
+                <p>Free share</p>
+                <p>1000 Clients</p>
+                <p>Chat + Email support</p>
+                <button class="plan-item-button">Get started</button>
+            </div>
+            <div class="plan-item">
+                <p class="tariff">1 Year Most Advanced</p>
+                <div class="cost">$120</div>
+                <p>Unlimited Email</p>
+                <p>Free share</p>
+                <p>10000 Clients</p>
+                <p>Personal manager</p>
+                <button class="plan-item-button">Get started</button>
+            </div>
+        </div>
+        <div class="tariff-parent_popup">
+            <div class="tariff-popup">
+                <form action="#" class="register-form" novalidate>
+                    <p>Please fill in the form to subscribe</p>
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+                    <label for="surname">Surname</label>
+                    <input type="text" id="surname">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" class="register-email" ">
+                    <label for=" select">Choose tariff plan</label>
+                    <select class="select" name="select" id="select"></select>
+                    <button type="submit" class="popup-close">Start Training!</button>
+                    <button type="button" class="close" aria-label="Закрыть">
+                        <span aria-hidden="true">×</span></button>
+                </form>
+            </div>
+            <div class="tariff-success-registration">
+                <p>Registration completed successfully!</p>
+                <button type="button" class="close" aria-label="Закрыть">
+                    <span aria-hidden="true">×</span></button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-container">
+        <div class="footer">
+            <div class="logo">
+                <img class="logo-img" src="img/logo.svg" alt="Логотип">
+            </div>
+            <nav class="menu-list">
+                <div class="menu-items-list">
+                    <li class="menu-item menu-item-about"><a href="#about">
+                            About
+                        </a></li>
+                    <li class="menu-item menu-item-pricing"><a href="#pricing">
+                            Pricing
+                        </a></li>
+                    <li class="menu-item menu-item-signup"><a href="#signup">
+                            Sign up
+                        </a></li>
+                </div>
+            </nav>
+            <div class="footer-buttons">
+                <button class="footer-btn btn"><span>
+                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M19.873 0H5.12695C2.29995 0 0 2.29995 0 5.12695V19.873C0 22.7 2.29995 25 5.12695 25H19.873C22.7 25 25 22.7 25 19.873V5.12695C25 2.29995 22.7 0 19.873 0ZM7.9252 19.5043C7.69913 19.9255 7.28753 20.1612 6.86487 20.1613C6.65767 20.1613 6.44789 20.1047 6.25594 19.9855C5.67243 19.623 5.47178 18.8175 5.80865 18.1897L6.04899 17.7419H8.871L7.9252 19.5043ZM5.21867 16.9355C4.56476 16.9355 4.03276 16.3989 4.03276 15.7394C4.03276 15.0799 4.56476 14.5434 5.21867 14.5434H7.5515L10.7513 8.95385L9.88409 7.43898C9.55716 6.86785 9.75184 6.13491 10.3181 5.80514H10.3182C10.8845 5.47541 11.6112 5.67185 11.9381 6.24294L12.1207 6.56181L12.3032 6.24299C12.6303 5.6718 13.357 5.47546 13.9232 5.80519C14.1975 5.96493 14.3937 6.22285 14.4757 6.53143C14.5577 6.84001 14.5156 7.16236 14.3572 7.43903L10.2902 14.5434H12.8556L14.225 16.9355H5.21867ZM19.699 16.9094H18.6685L19.5037 18.3138C19.8535 18.9017 19.6452 19.6563 19.0396 19.9958C18.8441 20.1053 18.6271 20.1613 18.4074 20.1613C18.2972 20.1613 18.1864 20.1473 18.077 20.1188C17.7497 20.0336 17.4762 19.8299 17.3068 19.545L12.9028 12.14L14.3674 9.67742L17.2039 14.4468H19.699C20.3984 14.4468 20.9673 14.9991 20.9673 15.6781C20.9673 16.357 20.3984 16.9094 19.699 16.9094Z"
+                                fill="#FFFFFF" />
+                        </svg>
+                    </span><span class="footer-btn-text">Download</span></button>
+                <button class="footer-btn btn">
+                    <span>
+                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M1.76418 0.833374C1.70627 1.04956 1.66666 1.28275 1.66666 1.54913V23.4599C1.66666 23.7222 1.70627 23.953 1.76189 24.1667L13.3333 12.5162L1.76418 0.833374Z"
+                                fill="#FFFFFF" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M18.3333 8.26903L4.09826 0.362865C3.53072 0.0182122 2.97201 -0.0691532 2.5 0.0510745L14.7435 11.6667L18.3333 8.26903Z"
+                                fill="#FFFFFF" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M23.1304 11.0569L19.5257 9.16663L15.8333 12.4633L19.5942 15.8333L23.1014 14.0177C24.8136 13.098 24.189 11.6176 23.1304 11.0569Z"
+                                fill="#FFFFFF" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M2.5 24.9389C2.97687 25.0729 3.5464 24.9926 4.12551 24.6389L18.3333 16.804L14.6965 13.3334L2.5 24.9389Z"
+                                fill="#FFFFFF" />
+                        </svg>
+                    </span><span class="footer-btn-text">Download</span></button>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
