@@ -144,6 +144,7 @@ formRegister.addEventListener('submit', (e) => {
     user.tariff = document.getElementById('select').value;
     document.querySelector('.tariff-popup').style.display = 'none';
     document.querySelector('.tariff-success-registration').style.display = 'block';
+    document.querySelector('.tariff-success-registration-greeting').textContent = `Welcome, ${user.name} ${user.surname}!`
     localStorage.setItem('user', JSON.stringify(user));
     formRegister.reset()
   }

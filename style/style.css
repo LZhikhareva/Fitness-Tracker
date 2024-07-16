@@ -623,7 +623,7 @@ body {
 .tariff-success-registration {
     font-family: Montserrat, sans-serif;
     font-size: 20px;
-    text-align: justify;
+    text-align: center;
     background-color: white;
     padding: 30px 15px;
     position: fixed;
